@@ -1,0 +1,13 @@
+/*! page.css © yamoo9.net, 2016 */
+
+/* <html> class 속성 this-is-html이 설정되면 스타일이 적용 */
+.this-is-html {
+  background: #7045cf;
+  color: #fff;
+  font-weight: 100;
+}
+
+h1 {
+  /* 부모 요소로부터 font-weight 속성 값을 상속(Inheritance) */
+  font-weight: inherit;
+}
