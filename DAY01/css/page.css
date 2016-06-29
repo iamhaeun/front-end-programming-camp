@@ -7,6 +7,16 @@
   font-weight: 100;
 }
 
+/* 기본 상태: <body> 요소가 화면에서 투명하게 처리되요. */
+body {
+  opacity: 0;
+}
+
+/* 자바스크립트가 처리한 상태: <body> 요소가 화면에서 보여져요. */
+.this-is-body {
+  opacity: 1;
+}
+
 h1 {
   /* 부모 요소로부터 font-weight 속성 값을 상속(Inheritance) */
   font-weight: inherit;
